@@ -1,0 +1,39 @@
+.g-sidenav-show .navbar:not(.sidenav).navbar-main .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+
+  .g-sidenav-show .navbar:not(.sidenav).navbar-main .navbar-nav {
+    flex-direction: row;
+  }
+
+
+
+.g-sidenav-show .sidenav .nav-item .collapse {
+    height: auto;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .g-sidenav-show .sidenav .nav-item .collapse {
+      transition: none;
+    }
+  }
+  
+  .g-sidenav-show .sidenav .nav-link-text {
+    transition: 0.3s ease;
+    opacity: 1;
+  }
+  .g-sidenav-show .sidenav.fixed-start+.main-content {
+    margin-left: 0 !important;
+  }  
+
+  .sidenav {
+    z-index: 9999;
+  }
+  /* background */
+
+  .bg-gray-200 {
+    background-color: #f0f2f5 !important;
+  }
+
