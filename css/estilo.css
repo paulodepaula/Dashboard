@@ -37,3 +37,22 @@
     background-color: #f0f2f5 !important;
   }
 
+  .cor1 {
+    color: rgba(230, 24, 24, 0.6);
+  }
+
+  .cor2 {
+    color: rgba(185, 214, 19, 0.685);
+  }
+
+  .cor3 {
+    color: rgba(24, 230, 86, 0.87);
+  }
+
+  .cor4 {
+    color: rgba(55, 8, 223, 0.6);
+  }
+
+  .cor5 {
+    color: rgba(24, 199, 230, 0.6);
+  }
