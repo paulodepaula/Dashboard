@@ -21,7 +21,7 @@ var temp_array = [];
     }
     return temp_array;
 } 
-
+console.log('whow');
 function ColorToHex(color) {
   var hexadecimal = color.toString(16);
   return hexadecimal.length == 1 ? "0" + hexadecimal : hexadecimal;
@@ -40,21 +40,17 @@ function mudacor() {
     // console.log(colormind("N","N","N","N","N"));
     // let arr0 = JSON.parse(http.responseText).result;
     let arr0 = colormind("N","N","N","N","N");
-    
     let arr1 = arr0[0];
     let arr2 = arr0[1];
     let arr3 = arr0[2];
     let arr4 = arr0[3];
     let arr5 = arr0[4];
-    //  console.log(rgb1);
+      // console.log(rgb1);
     //  console.log(rgb2);
     // console.log(arr0);
-    console.log(arr1+'rgb');
+    // console.log(arr1);
     // console.log(arr2);
- 
     let rgb1 = "rgb("+arr1[0]+","+arr1[1]+","+arr1[2]+")";
-
-    console.log(rgb1+'rgb');  
     let rgb2 = "rgb("+arr2[0]+","+arr2[1]+","+arr2[2]+")";
     let rgb3 = "rgb("+arr3[0]+","+arr3[1]+","+arr3[2]+")";
     let rgb4 = "rgb("+arr4[0]+","+arr4[1]+","+arr4[2]+")";
@@ -115,11 +111,6 @@ function mudacor() {
       
     // console.log(temp_array);
     colormind(arr0);
-
-
-
-
-
-    
+   
 }
 

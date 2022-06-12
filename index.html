@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS  -->
   <link id="pagestyle" href="./css/style-bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/estilo.css">
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
@@ -50,7 +51,9 @@
         </div>
 
      <!-- </div> -->
-
+     <ul>
+      <button type="submit" class="btt" onclick="mudacor()"> Trocar Cor </button>
+    </ul>
     </div>
 
     </div>
@@ -82,9 +85,7 @@
                 <span class="d-sm-inline d-none">entrar</span>
               </a>
           </ul>
-          <ul>
-            <button type="submit" onclick="mudacor()"> Trocar Cor </button>
-          </ul>
+          
         </div>
       </div>
     </nav>
@@ -233,7 +234,7 @@
       
 
   <script src="./js/chartjs.min.js"></script>
-  <script src="./script.js"></script>
+  <script src="./js/script.js"></script>
   <script>
     var ctx = document.getElementById("chart-bars").getContext("2d");
 
